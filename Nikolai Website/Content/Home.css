@@ -1,0 +1,51 @@
+﻿/* Header */
+.container, .container-fluid {
+    background-color: #3f3b3b;
+    border: black solid 2px;
+}
+
+.header-title {
+    margin-top: 10px;
+    font-size: 32px;
+    display: inline-block;
+}
+
+.header-link {
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+/* Link*/
+.link {
+    margin-top: 5px;
+    padding: 10px;
+    flex-direction: row;
+    display: inline-block;
+    outline: none;
+}
+
+.link:hover {
+    transform: scale(1.10);
+}
+
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Carousel */
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel-control {
+   margin-left: -10px;
+    margin-right: 0px;
+}
+
+.carousel-img-size {
+    width: 20%;
+    height: 20px;
+}
